@@ -10,6 +10,9 @@
 #
 
 # FUNCTION DEFINITIONS:
+def add(num1,num2):
+    c=num1+num2
+    print "Sum = "+str(c)
 
 # INITIAL MESSAGE:
 print "Welcome to Calculator Function"
@@ -23,3 +26,11 @@ choice = input("Enter choice (1/2/3/4): ")
 
 num1 = int(input("Enter 1st number: "))
 num2 = int(input("Enter 2nd number: "))
+
+if(choice is 1):
+    add(num1,num2)
+
+x = input("dekh le output")
+
+    
+    
