@@ -10,6 +10,9 @@
 #
 
 # FUNCTION DEFINITIONS:
+def div(n1,n2):
+    return n1/n2
+
 def mult(n1,n2):
     return (n1*n2)
 
@@ -30,8 +33,8 @@ print "4. Division"
 
 choice = input("Enter choice (1/2/3/4): ")
 
-num1 = int(input("Enter 1st number: "))
-num2 = int(input("Enter 2nd number: "))
+num1 = float(input("Enter 1st number: "))
+num2 = float(input("Enter 2nd number: "))
 
 if choice is 2:
     c = sub(num1, num2)
@@ -42,6 +45,10 @@ if(choice is 1):
 
 if(choice is 3):
     c = mult(num1,num2)
+    print c
+
+if choice is 4:
+    c=div(num1,num2)
     print c
     
 x = input("dekh le output")
