@@ -1,2 +1,2 @@
 # Calculator
-Calculator Program in C. Learning to use git.
+Calculator Program in Python. Learning to use git.
