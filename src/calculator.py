@@ -10,6 +10,9 @@
 #
 
 # FUNCTION DEFINITIONS:
+def mult(n1,n2):
+    return (n1*n2)
+
 def sub(n1, n2):
     return (n1-n2)
 
@@ -37,4 +40,8 @@ if choice is 2:
 if(choice is 1):
     add(num1,num2)
 
+if(choice is 3):
+    c = mult(num1,num2)
+    print c
+    
 x = input("dekh le output")
