@@ -13,6 +13,10 @@
 def sub(n1, n2):
     return (n1-n2)
 
+def add(num1,num2):
+    c=num1+num2
+    print "Sum = "+str(c)
+
 # INITIAL MESSAGE:
 print "Welcome to Calculator Function"
 print "Menu:"
@@ -30,3 +34,7 @@ if choice is 2:
     c = sub(num1, num2)
     print c
 
+if(choice is 1):
+    add(num1,num2)
+
+x = input("dekh le output")
